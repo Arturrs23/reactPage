@@ -1,22 +1,18 @@
-import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Body from "../components/Body";
 
-
-
-
-const  Home = () => {
+const Home = () => {
   return (
-    <div className="bg-red-100 ">
-     <Header/>
+    <div className="h-[100vh]">
+      <Header />
+      <Body />
+      <Footer />
 
-      <body className = "bg-red-100">
-
-      </body>
-
-        <Footer/>
     </div>
+
+
   );
-}
+};
 
 export default Home;
