@@ -2,16 +2,15 @@ import Button from "../components/Button";
 import Navbar from "../components/Navbar";
 
 
-function App() {
+const  Home = () => {
   return (
-    <div className="App ">
+    <div className="bg-red-100 ">
       <header className="App-header">
       <Navbar />
-
       </header>
 
-      <body>
-
+      <body className = "bg-red-100">
+      <h1>testest</h1>
 
       </body>
 
@@ -23,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
