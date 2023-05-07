@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-secondary">
-      <div className="container mx-auto flex justify-between items-center py-4">
+    <nav className="">
+      <div className="container mx-auto flex justify-between items-center py-1">
         <a className="text-xl font-bold text-white" href="#">Logo</a>
         <button className="navbar-toggler md:hidden focus:outline-none">
           <svg className="w-6 h-6 fill-current text-white" viewBox="0 0 24 24">
